@@ -63,7 +63,7 @@ export default function Home() {
                 {/* social media links */}
               </div>
             </div>
-            <p className="text-center">Schedule a quote over the phone or for a more peronal quote, let us visit your home in person. <br />
+            <p className="text-center">Schedule a quote over the phone or for a more peronal experience, let us visit your home in person. <br />
               Tell us what services you desire and what day of the week works best for you and we'll give you a quote.
               <br />Of course, it's <span className="text-[20px]">FREE!</span></p>
 
