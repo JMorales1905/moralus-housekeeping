@@ -11,7 +11,6 @@ export default function Home() {
           <a href="">Home</a>
           <a href="#about-us">About Us</a>
           <a href="#services">Services</a>
-          <a href="">Quote!</a>
         </section>
       </nav>
 
@@ -21,7 +20,7 @@ export default function Home() {
         </div>
 
         <section className="bg-white" id="about-us">
-          <div className="grid justify-center text-center">
+          <div className="grid justify-center text-center px-[30%] py-[50px] gap-y-9">
             <h1 className="text-[35px]">Our Promise</h1>
             <p className="text-[20px]">
               Moralus' Housekeeping Services offers housekeeping that suites
@@ -38,7 +37,7 @@ export default function Home() {
               After immigrating from Guatemala, Blanca found herself in the land of dreams and
               after working with a cleaning company for two years, decided to take her personal approach
               to the business. Now, Blanca works with her own clients who she has earned the trust of
-              and deliveres her cleaning services to them on a weekly/ monthly basis. Blanca would be honored
+              and deliveres her cleaning services to them on a weekly/monthly basis. Blanca would be honored
               to provide you with twelve years of housekeeping service experience and a personal experience you
               wont find with large-scale cleaning companies. She brings to the table services you could only find
               with her family, where Blanca take pride in the cleanliness of her home.
@@ -47,23 +46,22 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-light h-[100vh]" id="services">
+        <section className="bg-white h-[100vh]" id="services">
           <div className="flex justify-center items-center h-full gap-8">
             <div className="grid text-center">
-              <div className="bg-white p-8 rounded-md">
+              <div className="bg-slate-300  p-8 rounded-md">
                 <h2 className="text-[25px]">Phone Number</h2>
                 <p>For English: (760) 905-6102</p>
                 <p>Para Español: (760) 984-8227</p>
               </div>
-              <div className="bg-white p-8 rounded-md">
-                <h2>Email:</h2>
-                <p></p>
+              <div className="bg-slate-300 p-8 rounded-md">
+                <h2 className="text-[25px]">Email:</h2>
+                <p>Moralus.housekeeping@gmail.com</p>
               </div>
-              <div className="bg-white p-8 rounded-md">
-                <h2>Follow Us:</h2>
+              <div className="bg-slate-300 p-8 rounded-md">
+                <h2 className="text-[25px]">Follow Us:</h2>
                 {/* social media links */}
               </div>
-
             </div>
             <p className="text-center">Schedule a quote over the phone or for a more peronal quote, let us visit your home in person. <br />
               Tell us what services you desire and what day of the week works best for you and we'll give you a quote.
@@ -74,20 +72,21 @@ export default function Home() {
 
         <footer className="bg-white flex justify-evenly">
           <div>
-            <h2 className="text-[25px]">Compant logo</h2>
+            <h2 className="text-[25px]">Company logo</h2>
             <p> We would feel privileged to service you!</p>
+            <p>If you can't make a call during our hours, feel free to send a text message!</p>
           </div>
 
           <div>
             <h2 className="text-[25px]">Call Hours</h2>
             <ul>
-              <li className="border-black border-b-2">Monday: </li>
-              <li className="border-black border-b-2">Tuesday:</li>
-              <li className="border-black border-b-2">Wednesday:</li>
-              <li className="border-black border-b-2">Thursday:</li>
-              <li className="border-black border-b-2">Friday:</li>
-              <li className="border-black border-b-2">Saturday</li>
-              <li className="border-black border-b-2">Sunday</li>
+              <li className="border-black border-b-[1px]">Monday: 3pm-9pm</li>
+              <li className="border-black border-b-[1px]">Tuesday: 3pm-9pm</li>
+              <li className="border-black border-b-[1px]">Wednesday: 3pm-9pm</li>
+              <li className="border-black border-b-[1px]">Thursday: 3pm-9pm</li>
+              <li className="border-black border-b-[1px]">Friday: 3pm-9pm</li>
+              <li className="border-black border-b-[1px]">Saturday: 3pm-9pm</li>
+              <li className="border-black border-b-[1px]">Sunday: 3pm-9pm</li>
             </ul>
           </div>
         </footer>
